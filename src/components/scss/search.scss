@@ -1,0 +1,36 @@
+.input-search {
+  border: none;
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: transparent;
+  color: #ff6600;
+}
+
+::placeholder {
+  font-size: 1rem;
+  color: #ff6600;
+  font-family: 'lato', sans-serif;
+}
+
+:focus {
+  outline: 0;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+.form {
+  background: #ffffff;
+  width: 30%;
+  max-width: 500px;
+  height: 100%;
+  display: flex;
+  padding: 0 5px;
+  border-bottom: 2px solid #ff6600;
+  border-left: 2px solid #ff6600;
+}
+
+@media only screen and (max-width: 620px) {
+  .form {
+    width: 100%;
+  }
+}

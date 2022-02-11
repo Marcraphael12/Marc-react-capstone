@@ -1,0 +1,156 @@
+.info-container {
+  margin-top: 170px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.table-infos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  height: 500px;
+}
+
+.date {
+  float: left;
+  margin-left: 1rem;
+  font-weight: bolder;
+  color: #ff6600;
+  font-family: 'lato', sans-serif;
+}
+
+.date-value {
+  float: right;
+  margin-right: 1rem;
+  font-weight: bold;
+  color: #ff6600;
+  background-color: transparent !important;
+  font-family: 'lato', sans-serif;
+}
+
+.table-infos li {
+  height: 50px;
+  padding: 1rem;
+  color: #ff6600;
+  display: table;
+  width: 700px;
+}
+
+.data-of {
+  color: #ff6600;
+  font-weight: 500;
+  font-size: 1.5rem;
+  word-spacing: 10px;
+  margin-left: 1rem;
+  letter-spacing: 1px;
+  font-family: 'lato', sans-serif;
+}
+
+.country-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.data-of-wrapper {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: 'lato', sans-serif;
+}
+
+.country-total {
+  font-family: 'lato', sans-serif;
+  color: #ff6600;
+}
+
+.country-header-info {
+  display: flex;
+  color: #ff6600;
+  font-weight: bold;
+  font-size: x-large;
+  z-index: 11;
+  justify-content: space-between;
+  width: 362px;
+}
+
+.country-map-header {
+  width: 10rem;
+  height: 10rem;
+  margin-left: 7rem;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.table-infos li:nth-child(odd) {
+  background-color: #ff660098;
+}
+
+.table-infos li:nth-child(even) {
+  background-color: #ff66006b;
+}
+
+.info-ic {
+  text-align: right;
+}
+
+.icon-chev {
+  padding: 0;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+}
+
+.metric {
+  font-weight: bolder;
+  background-color: transparent !important;
+  font-family: 'lato', sans-serif;
+  margin-left: 1rem;
+  width: 5rem;
+  float: left;
+}
+
+.virus {
+  transition: 0.5s;
+  height: 4rem;
+  width: 4rem;
+  animation: cowmove 4s infinite;
+  color: #ff6600;
+}
+
+@keyframes cowmove {
+  0% {
+    transform: translateX(10px) rotateY(0deg);
+  }
+
+  49% {
+    transform: translateX(500px) rotateY(0deg);
+  }
+
+  50% {
+    transform: translateX(500px) rotateY(360deg);
+  }
+
+  100% {
+    transform: translateX(100px) rotateY(360deg);
+  }
+}
+
+.metric-value {
+  text-align: center;
+  margin-left: 5rem;
+  font-weight: bold;
+  background-color: transparent !important;
+  font-family: 'lato', sans-serif;
+  padding-top: 0.5rem;
+}
+
+@media only screen and (max-width: 950px) {
+  .metric {
+    width: 10rem;
+  }
+}

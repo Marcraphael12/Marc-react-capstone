@@ -1,0 +1,83 @@
+/* app */
+.app {
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+/* country */
+
+body {
+  background-color: white;
+  width: 100vw;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  border-top: 2px solid #ff6600;
+
+  .footer-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .fab {
+        color: #ff6600;
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+    .authorr {
+      padding: 1rem;
+      color: #ff6600;
+    }
+  }
+}
+
+small {
+  align-self: center;
+  padding-bottom: 1rem;
+  font-family: 'Red Hat Mono', monospace;
+  letter-spacing: 0.3rem;
+  word-spacing: 1rem;
+  margin-left: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media only screen and (max-width: 950px) {
+  .authorr {
+    font-size: 1.5rem;
+  }
+}
