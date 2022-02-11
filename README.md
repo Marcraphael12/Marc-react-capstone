@@ -1,44 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Available Scripts
+# Covid-19 world statistics
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+### About the requirements
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> This project is the third Microverse program capstone (react&redux). It about build a React and Redux SPA showing the world statistics of covid-19 pandemic. Check out [here]() the video presentation for more details.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I had to put together all the knowledge I gained from the React/Redux module at Microverse in order to build this project in 5 working days. The project had to be API-based and the requirements included: 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### About the project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+All data in this App are comming from [The covid19 tracking API](`https://api.covid19tracking.narrativa.com/api/).
+It's a single page app called **Covid-19 world statistics** which allows the user to see all stats about the covid19 in any country all over the world.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+As a user:
+- I can see on the home page the list of countries and their cases number.
+- When I click a country card, I'm taken to a page with the country's contamination details.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Objectives
+As a good learner in React and Redux, I had to learn how to build a SPA with React and Redux by:
 
-### `npm run eject`
+- Build the project as a single page application (SPA) built with React and Redux.
+- Retrieve the data from an API should be stored in the Redux store.
+- Use a Filter stateless component to filter the data retrieved from the API.
+- Use React Router so that every page should be accessible from a unique route.
+- Deploy the project to make it accessible online;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Demo
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[Open the app]() 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To get a local copy of this project running in development mode, follow the instructions below:: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. In your terminal, `cd` to the folder where you want to copy this project.
+2. Type in `git clone git@github.com:Marcraphael12/Marc-react-capstone.git`
+3. Then `cd capstone3-world-population`
+4. Then `npm install` and wait for the installation to complete.
+5. Finally run `npm start`(recommended) or `yarn start` if you're using yarn.
+6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Illustration
+
+![](screenshots/app_screenshot.png)
+![](screenshots/app_screenshot1.png)
+
+## Built With
+-React Js
+-Redux
+-Sass
+
+## Author
+
+👤 **Marc Raphael**
+
+- GitHub: [@Kingjosh007](https://github.com/Marcraphael12)
+- Twitter: [@KingJoChewa](https://twitter.com/MarcRaphael20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/essogo-raphael/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Big thanks to [Microverse](https://www.microverse.org/) for the support and guidance.
+- Special thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration
+
+## 📝 License
+
+This project is MIT licensed.
