@@ -33,7 +33,7 @@ As a good learner in React and Redux, I had to learn how to build a SPA with Rea
 
 ## Live Demo
 
-[Open the app]() 
+[Open the app](https://www.loom.com/share/7b30fae4f1a449559e8c887d525ed83b)
 
 ## Getting Started
 
