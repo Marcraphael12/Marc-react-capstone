@@ -49,9 +49,9 @@ To get a local copy of this project running in development mode, follow the inst
 
 ## Illustration
 
-![](screenshots/app_screenshot.png)
-![](screenshots/app_screenshot1.png)
-![](screenshots/app_screenshot2.png)
+![](./app_screenshot.png)
+![](./app_screenshot1.png)
+![](./app_screenshot2.png)
 
 ## Built With
 -React Js
