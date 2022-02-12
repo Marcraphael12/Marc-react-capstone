@@ -8,6 +8,10 @@ exports[`App renders !  1`] = `
     <div
       className="location-path"
     >
+      <span
+        className="back"
+      />
+       
       <svg
         className="icon-virus"
         fill="currentColor"

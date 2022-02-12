@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Countries renders !  1`] = `
+<div
+  className="header-container"
+>
+  <div
+    className="header-wrapper"
+  >
+    <div
+      className="world-info"
+    >
+      <span
+        className="world-cases"
+      >
+        Roughly 
+      </span>
+      <span
+        className="world-cases-value"
+      >
+         
+        33.868
+      </span>
+      <span
+        className="world-cases"
+      >
+        Covid world Cases 
+      </span>
+    </div>
+    <form
+      className="form"
+    >
+      <input
+        className="input-search"
+        onChange={[Function]}
+        placeholder="Search a country"
+        type="text"
+      />
+    </form>
+  </div>
+  <ul
+    className="countries-list"
+  >
+    <li
+      className="countries"
+    >
+      <button
+        className="country"
+        onClick={[Function]}
+        type="button"
+      >
+        <svg
+          className="info-icon"
+          color="white"
+          fill="currentColor"
+          height={20}
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": "white",
+            }
+          }
+          viewBox="0 0 24 24"
+          width={20}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z"
+          />
+          <path
+            d="M9.293 7.707 13.586 12l-4.293 4.293 1.414 1.414L16.414 12l-5.707-5.707z"
+          />
+        </svg>
+        <div
+          className="country-data"
+        >
+          <h1
+            className="country-name"
+          >
+            BENIN
+          </h1>
+          <span
+            className="total-confirmed"
+          >
+            24.850
+          </span>
+        </div>
+      </button>
+    </li>
+  </ul>
+</div>
+`;

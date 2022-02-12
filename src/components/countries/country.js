@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
@@ -14,7 +15,7 @@ const Country = ({
   };
   const isoName = countryName[country];
 
-  const mapImg = isoName ? `https://raw.githubusercontent.com/djaiss/mapsicon/33ba28808f8d32b5bae0ffada9cadd07073852e1/all/${isoName.toLowerCase()}/vector.svg` : '/World_map.png';
+  const mapImg = isoName ? `https://raw.githubusercontent.com/djaiss/mapsicon/33ba28808f8d32b5bae0ffada9cadd07073852e1/all/${isoName.toLowerCase()}/vector.svg` : './vector1.svg';
   return (
     <>
       <button
@@ -26,7 +27,6 @@ const Country = ({
         }}
       >
         <BiChevronRightCircle size={20} className="info-icon" color="white" />
-        <img className="country-map" alt="map" src={mapImg} width="100" height="100" />
         <div className="country-data">
           <h1 className="country-name">{country.toUpperCase()}</h1>
           <span className="total-confirmed">{Intl.NumberFormat('de-DE').format(totalConfirmed)}</span>
