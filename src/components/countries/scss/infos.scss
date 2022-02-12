@@ -20,7 +20,7 @@
   float: left;
   margin-left: 1rem;
   font-weight: bolder;
-  color: #ff6600;
+  color: #f60;
   font-family: 'lato', sans-serif;
 }
 
@@ -28,7 +28,7 @@
   float: right;
   margin-right: 1rem;
   font-weight: bold;
-  color: #ff6600;
+  color: #f60;
   background-color: transparent !important;
   font-family: 'lato', sans-serif;
 }
@@ -36,13 +36,13 @@
 .table-infos li {
   height: 50px;
   padding: 1rem;
-  color: #ff6600;
+  color: #f60;
   display: table;
   width: 700px;
 }
 
 .data-of {
-  color: #ff6600;
+  color: #f60;
   font-weight: 500;
   font-size: 1.5rem;
   word-spacing: 10px;
@@ -65,12 +65,12 @@
 
 .country-total {
   font-family: 'lato', sans-serif;
-  color: #ff6600;
+  color: #f60;
 }
 
 .country-header-info {
   display: flex;
-  color: #ff6600;
+  color: #f60;
   font-weight: bold;
   font-size: x-large;
   z-index: 11;
@@ -119,7 +119,7 @@
   height: 4rem;
   width: 4rem;
   animation: cowmove 4s infinite;
-  color: #ff6600;
+  color: #f60;
 }
 
 @keyframes cowmove {
