@@ -62,9 +62,9 @@ To get a local copy of this project running in development mode, follow the inst
 
 👤 **Marc Raphael**
 
-- GitHub: [@Kingjosh007](https://github.com/Marcraphael12)
-- Twitter: [@KingJoChewa](https://twitter.com/MarcRaphael20)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/essogo-raphael/)
+- GitHub: [Marc Raphael](https://github.com/Marcraphael12)
+- Twitter: [Marc Raphael](https://twitter.com/MarcRaphael20)
+- LinkedIn: [Marc Raphael](https://www.linkedin.com/in/essogo-raphael/)
 
 
 ## 🤝 Contributing
