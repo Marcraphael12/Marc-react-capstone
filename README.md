@@ -6,7 +6,7 @@
 
 ### About the requirements
 
-> This project is the third Microverse program capstone (react&redux). It about build a React and Redux SPA showing the world statistics of covid-19 pandemic. Check out [here]() the video presentation for more details.
+> This project is the third Microverse program capstone (react&redux). It about build a React and Redux SPA showing the world statistics of covid-19 pandemic. Check out [here](https://www.loom.com/share/7b30fae4f1a449559e8c887d525ed83b) the video presentation for more details.
 
 I had to put together all the knowledge I gained from the React/Redux module at Microverse in order to build this project in 5 working days. The project had to be API-based and the requirements included: 
 
@@ -33,7 +33,7 @@ As a good learner in React and Redux, I had to learn how to build a SPA with Rea
 
 ## Live Demo
 
-[Open the app](https://www.loom.com/share/7b30fae4f1a449559e8c887d525ed83b)
+[Open the app](https://covid-19-world-statistics.netlify.app/)
 
 ## Getting Started
 
