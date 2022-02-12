@@ -4,7 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Nav';
 import Countries from './components/countries/Countries';
 import CountryInfo from './components/countries/country_infos';
-import { dataLoading, loadDataThunk, selectData } from './Redux/covid/covid';
+import { dataLoading, loadDataThunk, selectData } from './redux/covid/covid';
 import countryNames from './components/countries/countries_name';
 import Footer from './components/Footer';
 import './scss/app.scss';
