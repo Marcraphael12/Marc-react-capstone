@@ -1,0 +1,48 @@
+.country-data {
+  display: flex;
+  flex-direction: column;
+  padding-left: -5rem;
+  gap: 0.5rem;
+}
+
+.countries {
+  width: 25%;
+  height: 200px;
+}
+
+.country {
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  padding: 0;
+  height: 17rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.country-map {
+  opacity: 0.6;
+}
+
+.country-name {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  text-align: center;
+  font-family: 'lato', sans-serif;
+  color: #fff;
+}
+
+.total-confirmed {
+  font-weight: bold;
+  color: #fff;
+  font-family: 'lato', sans-serif;
+  font-size: 1.2rem;
+}
+
+.info-icon {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  width: 2rem;
+  height: 2rem;
+}

@@ -1,56 +1,71 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Covid-19 world statistics
 
-> Description the project.
+## Introduction
+
+### About the requirements
+
+> This project is the third Microverse program capstone (react&redux). It about build a React and Redux SPA showing the world statistics of covid-19 pandemic. Check out [here]() the video presentation for more details.
+
+I had to put together all the knowledge I gained from the React/Redux module at Microverse in order to build this project in 5 working days. The project had to be API-based and the requirements included: 
 
 
-## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+### About the project
 
-## Live Demo (if available)
+All data in this App are comming from [The covid19 tracking API](`https://api.covid19tracking.narrativa.com/api/).
+It's a single page app called **Covid-19 world statistics** which allows the user to see all stats about the covid19 in any country all over the world.
 
-[Live Demo Link](https://livedemo.com)
+As a user:
+- I can see on the home page the list of countries and their cases number.
+- When I click a country card, I'm taken to a page with the country's contamination details.
 
+### Objectives
+As a good learner in React and Redux, I had to learn how to build a SPA with React and Redux by:
+
+- Build the project as a single page application (SPA) built with React and Redux.
+- Retrieve the data from an API should be stored in the Redux store.
+- Use a Filter stateless component to filter the data retrieved from the API.
+- Use React Router so that every page should be accessible from a unique route.
+- Deploy the project to make it accessible online;
+
+
+## Live Demo
+
+[Open the app]() 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a local copy of this project running in development mode, follow the instructions below:: 
+
+1. In your terminal, `cd` to the folder where you want to copy this project.
+2. Type in `git clone git@github.com:Marcraphael12/Marc-react-capstone.git`
+3. Then `cd capstone3-world-population`
+4. Then `npm install` and wait for the installation to complete.
+5. Finally run `npm start`(recommended) or `yarn start` if you're using yarn.
+6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 
-To get a local copy up and running follow these simple example steps.
+## Illustration
 
-### Prerequisites
+![](screenshots/app_screenshot.png)
+![](screenshots/app_screenshot1.png)
+![](screenshots/app_screenshot2.png)
 
-### Setup
+## Built With
+-React Js
+-Redux
+-Sass
 
-### Install
+## Author
 
-### Usage
+👤 **Marc Raphael**
 
-### Run tests
+- GitHub: [@Kingjosh007](https://github.com/Marcraphael12)
+- Twitter: [@KingJoChewa](https://twitter.com/MarcRaphael20)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/essogo-raphael/)
 
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,10 +79,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Big thanks to [Microverse](https://www.microverse.org/) for the support and guidance.
+- Special thanks to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for the design inspiration
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is MIT licensed.
