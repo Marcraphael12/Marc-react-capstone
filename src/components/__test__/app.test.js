@@ -6,7 +6,7 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import App from '../../App';
-import { covidReducer } from '../../Redux/covid/covid';
+import { covidReducer } from '../../redux/covid/covid';
 
 const reducer = combineReducers({
   covidReducer,
